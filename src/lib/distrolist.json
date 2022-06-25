@@ -1,0 +1,16 @@
+{
+    "distrolist": [
+        {
+            "name":"MX Linux",
+            "desktop":["kde","xfce"],
+            "wm_type":"windows",
+            "rpi_support":true,
+            "weird_arch_support": false,
+            "based":"debian",
+            "user_friendly": true,
+            "old_machine": false,
+            "usage_type": "general usage",
+            "link":"https://mxlinux.org/"
+        }
+    ]
+}

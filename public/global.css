@@ -35,3 +35,23 @@ button:not(:disabled):active {
 button:focus {
 	border-color: #666;
 }
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: green; 
+  border-radius: 20px;
+}
+
+@media (prefers-color-scheme: dark) {
+    h1,h2,h3,h4,label{
+        color:#888;
+    }
+    body{
+        background-color: #0c0014;
+    }
+    button{
+        color: white;
+        background-color: navy
+    }
+}

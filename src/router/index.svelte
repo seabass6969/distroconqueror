@@ -2,9 +2,10 @@
       rel="stylesheet">
 <script>
     import Iconlink from './../component/iconlink.svelte'
+    import Ext from './../component/ext.svelte'
     import {page, question_ans} from './../global.js'
     import {question_USAGE} from './../lib/question_list'
-const page_list = ["first","usage","interfaceType","computersavyrate","machineage","last"]
+const page_list = ["first","usage","interfaceType","computersavyrate","machineage","systemd","install_program","tweekable","last"]
     let on_page
     page.subscribe(value => {
         on_page = value
@@ -21,7 +22,7 @@ function previous(){
     page.set(page_list[page_list.indexOf(on_page)-1])
 }
     let nextdisable = false
-    let question = {usage:"",interfaceType:"",computersavyrate: "",machineage:""}
+    let question = {usage:"",interfaceType:"",computersavyrate: "",machineage:"",systemd:"",install_program:"",tweekable:""}
     $:{
         question_ans.set(question)
         console.log(question_ans_sub)
@@ -35,11 +36,15 @@ function previous(){
 
 <main>
 <div class="sidebar">
-<Iconlink linkto="first" icon="home"/>
+<Iconlink linkto="first" icon="home" on_color="yellow"/>
 <Iconlink linkto="usage" icon="data_usage"/>
 <Iconlink linkto="interfaceType" icon="monitor"/>
 <Iconlink linkto="computersavyrate" icon="gpp_good"/>
 <Iconlink linkto="machineage" icon="elderly_woman"/>
+<Iconlink linkto="systemd" icon="developer_board"/>
+<Iconlink linkto="install_program" icon="file_download"/>
+<Iconlink linkto="tweekable" icon="settings_suggest"/>
+<Iconlink linkto="last" icon="done_all" on_color="green"/>
 </div>
 <div class="bodytext">
 {#if on_page == "first"}
@@ -104,8 +109,56 @@ function previous(){
 </label>
 {:else if on_page == "machineage"}
 <h2>Linux can use on any hardware (including your smart toaster and smart fridge)What good is your computer preform</h2>
+<label>
+<input type="radio" bind:group={question.machineage} value="bad">My computer is just too slow to even run a game
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.machineage} value="good">My computer is fine when running a game, but I want higer preformace
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.machineage} value="weirdarch">My computer my computer have weird Architecture (arm64, arm, riscv)<Ext href="https://en.wikipedia.org/wiki/Computer_architecture?lang=en" />
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.machineage} value="rpi">I am using raspberry pi.
+</label>
+{:else if on_page == "systemd"}
+<h2>In most linux distro it would usually include some of the init system, the most popular of them is systemd. A lot of people against this init system, in linux you can choose without it<Ext href="https://en.wikipedia.org/wiki/Systemd" /></h2>
+<label>
+<input type="radio" bind:group={question.systemd} value="withit">I prefer using systemd, I have nothing to against it.
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.systemd} value="no">I don't like systemd.
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.systemd} value="none">I don't know all this 
+</label>
+{:else if on_page == "install_program"}
+<h2>Different distro come with pre-install software. Other minimalist distro don't have that.</h2>
+<label>
+<input type="radio" bind:group={question.install_program} value="beginner">I don't want to do that. 
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.install_program} value="install_yes">I want to install software myself.
+</label>
+
+{:else if on_page == "tweekable"}
+<h2>In linux you have the freedom to choose everything and tweek thing. Do you want to do that?</h2>
+<label>
+<input type="radio" bind:group={question.tweekable} value="yes">Yes
+</label>
+<br>
+<label>
+<input type="radio" bind:group={question.tweekable} value="no">No
+</label>
 {:else if on_page == "last"}
 <h2>Results:</h2>
+<h3>before show you the result I just want to pointout that the linux distro it show up may not have the nicest user interface and that's alright beacuse most linux distro have the ablity to change and modify the look and feel</h3>
 {/if}
 
 <br>
@@ -123,6 +176,7 @@ function previous(){
 </main>
 
 <style>
+
 .sidebar{
 height: 100%;
 width: 100px;
@@ -131,6 +185,7 @@ left: 0;
 top: 0;
 padding-top: 20px;
 background-color: lightblue;
+overflow-x: scroll;
 }
 
 
@@ -145,6 +200,22 @@ margin-left: 100px;
     width:450px
 }
 .hoverbox{
-    border-style:solid; 
+    border-style:solid;
+}
+@media (prefers-color-scheme: dark) {
+    .sidebar{
+        background-color: darkblue
+    }
+    .hoverbox{
+        border-color:navy;
+    }
+}
+@media (max-width: 600px){
+    .sidebar{
+        width: 60px;
+    }
+    .bodytext{
+        margin-left: 60px;
+    }
 }
 </style>

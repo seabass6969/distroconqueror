@@ -2,6 +2,7 @@
     import {page} from './../global.js'
     export let linkto = "first"
     export let icon = "home"
+    export let on_color = "tomato"
     let on_page
     page.subscribe(value => {
         on_page = value
@@ -31,17 +32,25 @@ user-select: none;
     height:100px;
 }
 .on{
-    color:tomato;
+    
     text-shadow: 0 0 5px #FF0000;
 }
-
+@media (max-width: 600px){
+    .material-icons {
+        font-size:30px;
+    }
+    .itembar{
+        width:60px;
+        height:60px;
+    }
+}
 </style>
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 <div class="itembar">
 <button class="btnlogo" on:click={clicked}>
 {#if on_page == linkto}
-<span class="material-icons paddingbar on">{icon}</span>
+<span class="material-icons paddingbar on" style="color:{on_color};">{icon}</span>
 {:else}
 <span class="material-icons paddingbar">{icon}</span>
 {/if}
