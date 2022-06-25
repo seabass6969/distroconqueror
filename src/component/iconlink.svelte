@@ -32,6 +32,7 @@ user-select: none;
 }
 .on{
     color:tomato;
+    text-shadow: 0 0 5px #FF0000;
 }
 
 </style>
