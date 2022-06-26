@@ -54,4 +54,10 @@ button:focus {
         color: white;
         background-color: navy
     }
+    a::before{
+        color:lightpink;
+    }
+    a:-webkit-any-link{
+        color:pink;
+    }
 }
