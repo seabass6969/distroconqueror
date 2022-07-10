@@ -5,7 +5,7 @@
     import Ext from './../component/ext.svelte'
     import {page, question_ans} from './../global.js'
     import {question_USAGE} from './../lib/question_list'
-    import {Link} from 'svelte-navigator'
+    import {link} from 'svelte-spa-router' 
 const page_list = ["first","usage","interfaceType","computersavyrate","machineage","systemd","install_program","tweekable","last"]
     let on_page
     page.subscribe(value => {
@@ -161,7 +161,7 @@ function previous(){
 <h2>Results:</h2>
 <h3>before show you the result I just want to pointout that the linux distro it show up may not have the nicest user interface and that's alright beacuse most linux distro have the ablity to change and modify the look and feel</h3>
 <h3>We recommaned to check out the arch linux wiki <Ext href="https://wiki.archlinux.org/" /></h3>
-<Link to="/result" class="getresult">press to show me the result</Link>
+<a href="/result" use:link><div class="getresult">press to show me the result</div></a>
 {/if}
 
 <br>
@@ -206,7 +206,7 @@ margin-left: 100px;
     border-style:solid;
 }
 .getresult{
-    font-size:20px;
+    font-size:30px;
 }
 @media (prefers-color-scheme: dark) {
     .sidebar{

@@ -1,0 +1,230 @@
+        <tr>
+          <th class="phr1">1</th>
+          <td class="phr2"><a href="mx">MX Linux</a></td>
+          <td class="phr3" title="Yesterday: 3232">3230<img src="images/other/adown.png" alt="<" title="Yesterday: 3232"></td>
+        </tr>
+        <tr>
+          <th class="phr1">2</th>
+          <td class="phr2"><a href="endeavour">EndeavourOS</a></td>
+          <td class="phr3" title="Yesterday: 3004">3003<img src="images/other/adown.png" alt="<" title="Yesterday: 3004"></td>
+        </tr>
+        <tr>
+          <th class="phr1">3</th>
+          <td class="phr2"><a href="mint">Mint</a></td>
+          <td class="phr3" title="Yesterday: 2129">2129<img src="images/other/alevel.png" alt="=" title="Yesterday: 2129"></td>
+        </tr>
+        <tr>
+          <th class="phr1">4</th>
+          <td class="phr2"><a href="manjaro">Manjaro</a></td>
+          <td class="phr3" title="Yesterday: 1962">1960<img src="images/other/adown.png" alt="<" title="Yesterday: 1962"></td>
+        </tr>
+        <tr>
+          <th class="phr1">5</th>
+          <td class="phr2"><a href="popos">Pop!_OS</a></td>
+          <td class="phr3" title="Yesterday: 1439">1437<img src="images/other/adown.png" alt="<" title="Yesterday: 1439"></td>
+        </tr>
+        <tr>
+          <th class="phr1">6</th>
+          <td class="phr2"><a href="ubuntu">Ubuntu</a></td>
+          <td class="phr3" title="Yesterday: 1335">1335<img src="images/other/alevel.png" alt="=" title="Yesterday: 1335"></td>
+        </tr>
+        <tr>
+          <th class="phr1">7</th>
+          <td class="phr2"><a href="debian">Debian</a></td>
+          <td class="phr3" title="Yesterday: 1192">1192<img src="images/other/alevel.png" alt="=" title="Yesterday: 1192"></td>
+        </tr>
+        <tr>
+          <th class="phr1">8</th>
+          <td class="phr2"><a href="garuda">Garuda</a></td>
+          <td class="phr3" title="Yesterday: 1138">1137<img src="images/other/adown.png" alt="<" title="Yesterday: 1138"></td>
+        </tr>
+        <tr>
+          <th class="phr1">9</th>
+          <td class="phr2"><a href="fedora">Fedora</a></td>
+          <td class="phr3" title="Yesterday: 1080">1081<img src="images/other/aup.png" alt=">" title="Yesterday: 1080"></td>
+        </tr>
+        <tr>
+          <th class="phr1">10</th>
+          <td class="phr2"><a href="zorin">Zorin</a></td>
+          <td class="phr3" title="Yesterday: 900">900<img src="images/other/alevel.png" alt="=" title="Yesterday: 900"></td>
+        </tr>
+        <tr>
+          <th class="phr1">11</th>
+          <td class="phr2"><a href="elementary">elementary</a></td>
+          <td class="phr3" title="Yesterday: 889">887<img src="images/other/adown.png" alt="<" title="Yesterday: 889"></td>
+        </tr>
+        <tr>
+          <th class="phr1">12</th>
+          <td class="phr2"><a href="opensuse">openSUSE</a></td>
+          <td class="phr3" title="Yesterday: 786">786<img src="images/other/alevel.png" alt="=" title="Yesterday: 786"></td>
+        </tr>
+        <tr>
+          <th class="phr1">13</th>
+          <td class="phr2"><a href="lite">Lite</a></td>
+          <td class="phr3" title="Yesterday: 652">653<img src="images/other/aup.png" alt=">" title="Yesterday: 652"></td>
+        </tr>
+        <tr>
+          <th class="phr1">14</th>
+          <td class="phr2"><a href="kdeneon">KDE neon</a></td>
+          <td class="phr3" title="Yesterday: 642">642<img src="images/other/alevel.png" alt="=" title="Yesterday: 642"></td>
+        </tr>
+        <tr>
+          <th class="phr1">15</th>
+          <td class="phr2"><a href="antix">antiX</a></td>
+          <td class="phr3" title="Yesterday: 577">577<img src="images/other/alevel.png" alt="=" title="Yesterday: 577"></td>
+        </tr>
+        <tr>
+          <th class="phr1">16</th>
+          <td class="phr2"><a href="slackware">Slackware</a></td>
+          <td class="phr3" title="Yesterday: 571">571<img src="images/other/alevel.png" alt="=" title="Yesterday: 571"></td>
+        </tr>
+        <tr>
+          <th class="phr1">17</th>
+          <td class="phr2"><a href="solus">Solus</a></td>
+          <td class="phr3" title="Yesterday: 502">501<img src="images/other/adown.png" alt="<" title="Yesterday: 502"></td>
+        </tr>
+        <tr>
+          <th class="phr1">18</th>
+          <td class="phr2"><a href="pclinuxos">PCLinuxOS</a></td>
+          <td class="phr3" title="Yesterday: 478">477<img src="images/other/adown.png" alt="<" title="Yesterday: 478"></td>
+        </tr>
+        <tr>
+          <th class="phr1">19</th>
+          <td class="phr2"><a href="kali">Kali</a></td>
+          <td class="phr3" title="Yesterday: 442">442<img src="images/other/alevel.png" alt="=" title="Yesterday: 442"></td>
+        </tr>
+        <tr>
+          <th class="phr1">20</th>
+          <td class="phr2"><a href="arco">ArcoLinux</a></td>
+          <td class="phr3" title="Yesterday: 421">421<img src="images/other/alevel.png" alt="=" title="Yesterday: 421"></td>
+        </tr>
+        <tr>
+          <th class="phr1">21</th>
+          <td class="phr2"><a href="kubuntu">Kubuntu</a></td>
+          <td class="phr3" title="Yesterday: 406">406<img src="images/other/alevel.png" alt="=" title="Yesterday: 406"></td>
+        </tr>
+        <tr>
+          <th class="phr1">22</th>
+          <td class="phr2"><a href="sparky">SparkyLinux</a></td>
+          <td class="phr3" title="Yesterday: 384">386<img src="images/other/aup.png" alt=">" title="Yesterday: 384"></td>
+        </tr>
+        <tr>
+          <th class="phr1">23</th>
+          <td class="phr2"><a href="freebsd">FreeBSD</a></td>
+          <td class="phr3" title="Yesterday: 374">374<img src="images/other/alevel.png" alt="=" title="Yesterday: 374"></td>
+        </tr>
+        <tr>
+          <th class="phr1">24</th>
+          <td class="phr2"><a href="puppy">Puppy</a></td>
+          <td class="phr3" title="Yesterday: 364">364<img src="images/other/alevel.png" alt="=" title="Yesterday: 364"></td>
+        </tr>
+        <tr>
+          <th class="phr1">25</th>
+          <td class="phr2"><a href="arch">Arch</a></td>
+          <td class="phr3" title="Yesterday: 362">360<img src="images/other/adown.png" alt="<" title="Yesterday: 362"></td>
+        </tr>
+        <tr>
+          <th class="phr1">27</th>
+          <td class="phr2"><a href="centos">CentOS</a></td>
+          <td class="phr3" title="Yesterday: 334">334<img src="images/other/alevel.png" alt="=" title="Yesterday: 334"></td>
+        </tr>
+        <tr>
+          <th class="phr1">28</th>
+          <td class="phr2"><a href="alpine">Alpine</a></td>
+          <td class="phr3" title="Yesterday: 328">328<img src="images/other/alevel.png" alt="=" title="Yesterday: 328"></td>
+        </tr>
+        <tr>
+          <th class="phr1">29</th>
+          <td class="phr2"><a href="linuxfx">Linuxfx</a></td>
+          <td class="phr3" title="Yesterday: 325">325<img src="images/other/alevel.png" alt="=" title="Yesterday: 325"></td>
+        </tr>
+        <tr>
+          <th class="phr1">31</th>
+          <td class="phr2"><a href="alma">AlmaLinux</a></td>
+          <td class="phr3" title="Yesterday: 318">318<img src="images/other/alevel.png" alt="=" title="Yesterday: 318"></td>
+        </tr>
+        <tr>
+          <th class="phr1">32</th>
+          <td class="phr2"><a href="artix">Artix</a></td>
+          <td class="phr3" title="Yesterday: 313">313<img src="images/other/alevel.png" alt="=" title="Yesterday: 313"></td>
+        </tr>
+        <tr>
+          <th class="phr1">33</th>
+          <td class="phr2"><a href="devuan">Devuan</a></td>
+          <td class="phr3" title="Yesterday: 309">309<img src="images/other/alevel.png" alt="=" title="Yesterday: 309"></td>
+        </tr>
+        <tr>
+          <th class="phr1">34</th>
+          <td class="phr2"><a href="lubuntu">Lubuntu</a></td>
+          <td class="phr3" title="Yesterday: 304">304<img src="images/other/alevel.png" alt="=" title="Yesterday: 304"></td>
+        </tr>
+        <tr>
+          <th class="phr1">35</th>
+          <td class="phr2"><a href="peppermint">Peppermint</a></td>
+          <td class="phr3" title="Yesterday: 297">297<img src="images/other/alevel.png" alt="=" title="Yesterday: 297"></td>
+        </tr>
+        <tr>
+          <th class="phr1">36</th>
+          <td class="phr2"><a href="tails">Tails</a></td>
+          <td class="phr3" title="Yesterday: 291">291<img src="images/other/alevel.png" alt="=" title="Yesterday: 291"></td>
+        </tr>
+        <tr>
+          <th class="phr1">37</th>
+          <td class="phr2"><a href="void">Void</a></td>
+          <td class="phr3" title="Yesterday: 283">283<img src="images/other/alevel.png" alt="=" title="Yesterday: 283"></td>
+        </tr>
+        <tr>
+          <th class="phr1">39</th>
+          <td class="phr2"><a href="rocky">Rocky</a></td>
+          <td class="phr3" title="Yesterday: 273">272<img src="images/other/adown.png" alt="<" title="Yesterday: 273"></td>
+        </tr>
+        <tr>
+          <th class="phr1">43</th>
+          <td class="phr2"><a href="xubuntu">Xubuntu</a></td>
+          <td class="phr3" title="Yesterday: 246">246<img src="images/other/alevel.png" alt="=" title="Yesterday: 246"></td>
+        </tr>
+        <tr>
+          <th class="phr1">46</th>
+          <td class="phr2"><a href="nixos">NixOS</a></td>
+          <td class="phr3" title="Yesterday: 232">233<img src="images/other/aup.png" alt=">" title="Yesterday: 232"></td>
+        </tr>
+        <tr>
+          <th class="phr1">51</th>
+          <td class="phr2"><a href="gentoo">Gentoo</a></td>
+          <td class="phr3" title="Yesterday: 218">218<img src="images/other/alevel.png" alt="=" title="Yesterday: 218"></td>
+        </tr>
+        <tr>
+          <th class="phr1">52</th>
+          <td class="phr2"><a href="parrot">Parrot</a></td>
+          <td class="phr3" title="Yesterday: 212">212<img src="images/other/alevel.png" alt="=" title="Yesterday: 212"></td>
+        </tr>
+        <tr>
+          <th class="phr1">54</th>
+          <td class="phr2"><a href="deepin">deepin</a></td>
+          <td class="phr3" title="Yesterday: 207">207<img src="images/other/alevel.png" alt="=" title="Yesterday: 207"></td>
+        </tr>
+        <tr>
+          <th class="phr1">57</th>
+          <td class="phr2"><a href="ubuntumate">Ubuntu MATE</a></td>
+          <td class="phr3" title="Yesterday: 200">200<img src="images/other/alevel.png" alt="=" title="Yesterday: 200"></td>
+        </tr>
+        <tr>
+          <th class="phr1">58</th>
+          <td class="phr2"><a href="redhat">Red Hat</a></td>
+          <td class="phr3" title="Yesterday: 198">198<img src="images/other/alevel.png" alt="=" title="Yesterday: 198"></td>
+        </tr>
+        <tr>
+          <th class="phr1">70</th>
+          <td class="phr2"><a href="tinycore">Tiny Core</a></td>
+          <td class="phr3" title="Yesterday: 168">168<img src="images/other/alevel.png" alt="=" title="Yesterday: 168"></td>
+        </tr>
+        <tr>
+          <th class="phr1">74</th>
+          <td class="phr2"><a href="steamos">SteamOS</a></td>
+          <td class="phr3" title="Yesterday: 160">160<img src="images/other/alevel.png" alt="=" title="Yesterday: 160"></td>
+        </tr>
+        <tr>
+          <th class="phr1">79</th>
+          <td class="phr2"><a href="openbsd">OpenBSD</a></td>
+          <td class="phr3" title="Yesterday: 153">153<img src="images/other/alevel.png" alt="=" title="Yesterday: 153"></td>
+        </tr>
