@@ -1,6 +1,6 @@
 <script>
     import {question_ans} from './../global.js'
-    import json from './../lib/distrolist.json'
+    import json from './../lib/distro.json'
     import link from 'svelte-spa-router'
     let question_ans_sub
     question_ans.subscribe(value => {
@@ -8,7 +8,8 @@
     })
     const distrolist = json["distrolist"]
     console.log(question_ans_sub)
-    console.log(distrolist.filter(x => x.based === "arch").filter(x=>x.rpi_support === true))
+    console.log(distrolist.filter(x => x.usage_type === "hacking"))
+        // .filter(x=>x.rpi_support === true))
     
 </script>
 <h1>the result</h1>

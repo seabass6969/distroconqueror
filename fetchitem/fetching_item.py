@@ -19,7 +19,10 @@ def fetchallHTML():
     html = open("word.txt", "r", encoding='utf-8')
 
     soup = BeautifulSoup(html, 'html.parser')
-    for i in soup.find_all("td", class_="phr2"):
+    getres = soup.find_all("td", class_="phr2")
+    for x in range(0, 40):
+        getres.pop(0)
+    for i in getres:
         item = requests.get(before_url + i.find('a').getText()).text
         print(before_url + i.find('a').getText())
         souper = BeautifulSoup(item, 'html.parser')

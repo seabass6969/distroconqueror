@@ -1,5 +1,5 @@
 {
-  "done": [
+  "distrolist": [
     {
       "name": "Garuda Linux",
       "desktop": [
@@ -197,7 +197,7 @@
       "based": "debian",
       "user_friendly": true,
       "old_machine": false,
-      "usage_type": "Hacking",
+      "usage_type": "hacking",
       "link": "http://www.kali.org/",
       "hard": false,
       "systemd": true
@@ -404,7 +404,7 @@
       "based": "debian",
       "user_friendly": true,
       "old_machine": false,
-      "usage_type": "hacking",
+      "usage_type": "stay anonymous",
       "link": "https://tails.boum.org/",
       "hard": false,
       "systemd": true
